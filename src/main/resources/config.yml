@@ -1,0 +1,2 @@
+api-endpoint: "http://localhost:8078/api.php"
+server-name: "ServerName" # Change this to the actual server name (e.g., PvP, Survival)

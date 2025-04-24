@@ -1,0 +1,20 @@
+name: ApiPlugin
+version: 1.0
+main: org.evilduck.api.Api  # Ensure this matches the package and class name
+api-version: 1.21
+commands:
+  api:
+    description: API-related commands
+    usage: /api reload
+    permission: api.reload
+  sendapi:
+    description: Send a message to the API
+    usage: /sendapi <message>
+    permission: api.send
+permissions:
+  api.reload:
+    description: Allows reloading the API config
+    default: op
+  api.send:
+    description: Allows sending messages to the API
+    default: op
